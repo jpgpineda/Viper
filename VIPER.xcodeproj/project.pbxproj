@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39969CF828B66BFC00C7C5D1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39969CF728B66BFC00C7C5D1 /* UserModel.swift */; };
 		39E5B43928AFCA630086E5BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B43828AFCA630086E5BC /* AppDelegate.swift */; };
 		39E5B43B28AFCA630086E5BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B43A28AFCA630086E5BC /* SceneDelegate.swift */; };
-		39E5B43D28AFCA630086E5BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B43C28AFCA630086E5BC /* ViewController.swift */; };
-		39E5B44028AFCA630086E5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E5B43E28AFCA630086E5BC /* Main.storyboard */; };
 		39E5B44228AFCA660086E5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E5B44128AFCA660086E5BC /* Assets.xcassets */; };
 		39E5B44528AFCA660086E5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E5B44328AFCA660086E5BC /* LaunchScreen.storyboard */; };
+		39E5B45228AFCAB90086E5BC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B45128AFCAB90086E5BC /* View.swift */; };
+		39E5B45428AFCAC40086E5BC /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B45328AFCAC40086E5BC /* Interactor.swift */; };
+		39E5B45628AFCACB0086E5BC /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B45528AFCACB0086E5BC /* Presenter.swift */; };
+		39E5B45828AFCAD40086E5BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B45728AFCAD40086E5BC /* User.swift */; };
+		39E5B45A28AFCADD0086E5BC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B45928AFCADD0086E5BC /* Router.swift */; };
+		39E5B45D28AFD0CA0086E5BC /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5B45C28AFD0CA0086E5BC /* Errors.swift */; };
+		C2D4512EA6B5F07BBCE49541 /* Pods_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB2F63A23A4C3B428BB230 /* Pods_VIPER.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DCB110C792514F2FE5FD52E /* Pods-VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER.release.xcconfig"; path = "Target Support Files/Pods-VIPER/Pods-VIPER.release.xcconfig"; sourceTree = "<group>"; };
+		39969CF728B66BFC00C7C5D1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		39E5B43528AFCA630086E5BC /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E5B43828AFCA630086E5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39E5B43A28AFCA630086E5BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39E5B43C28AFCA630086E5BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39E5B43F28AFCA630086E5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39E5B44128AFCA660086E5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39E5B44428AFCA660086E5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39E5B44628AFCA660086E5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E5B45128AFCAB90086E5BC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		39E5B45328AFCAC40086E5BC /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		39E5B45528AFCACB0086E5BC /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		39E5B45728AFCAD40086E5BC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		39E5B45928AFCADD0086E5BC /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		39E5B45C28AFD0CA0086E5BC /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		CAEB2F63A23A4C3B428BB230 /* Pods_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC9A329DC5BFA5C8B4887B4 /* Pods-VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER.debug.xcconfig"; path = "Target Support Files/Pods-VIPER/Pods-VIPER.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D4512EA6B5F07BBCE49541 /* Pods_VIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074375C2F34B36B6B820F879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB2F63A23A4C3B428BB230 /* Pods_VIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39969CF628B66BF100C7C5D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39969CF728B66BFC00C7C5D1 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		39E5B42C28AFCA630086E5BC = {
 			isa = PBXGroup;
 			children = (
 				39E5B43728AFCA630086E5BC /* VIPER */,
 				39E5B43628AFCA630086E5BC /* Products */,
+				C118FFF4B4C30D1246B3A4F5 /* Pods */,
+				074375C2F34B36B6B820F879 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,77 @@
 		39E5B43728AFCA630086E5BC /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				39969CF628B66BF100C7C5D1 /* Model */,
+				39E5B45B28AFD0BC0086E5BC /* Utils */,
+				39E5B45028AFCAA40086E5BC /* Router */,
+				39E5B44F28AFCA9A0086E5BC /* Entity */,
+				39E5B44E28AFCA900086E5BC /* Presenter */,
+				39E5B44D28AFCA880086E5BC /* Interactor */,
+				39E5B44C28AFCA7E0086E5BC /* View */,
 				39E5B43828AFCA630086E5BC /* AppDelegate.swift */,
 				39E5B43A28AFCA630086E5BC /* SceneDelegate.swift */,
-				39E5B43C28AFCA630086E5BC /* ViewController.swift */,
-				39E5B43E28AFCA630086E5BC /* Main.storyboard */,
 				39E5B44128AFCA660086E5BC /* Assets.xcassets */,
 				39E5B44328AFCA660086E5BC /* LaunchScreen.storyboard */,
 				39E5B44628AFCA660086E5BC /* Info.plist */,
 			);
 			path = VIPER;
+			sourceTree = "<group>";
+		};
+		39E5B44C28AFCA7E0086E5BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B45128AFCAB90086E5BC /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39E5B44D28AFCA880086E5BC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B45328AFCAC40086E5BC /* Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		39E5B44E28AFCA900086E5BC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B45528AFCACB0086E5BC /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		39E5B44F28AFCA9A0086E5BC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B45728AFCAD40086E5BC /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		39E5B45028AFCAA40086E5BC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B45928AFCADD0086E5BC /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		39E5B45B28AFD0BC0086E5BC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				39E5B45C28AFD0CA0086E5BC /* Errors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C118FFF4B4C30D1246B3A4F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9A329DC5BFA5C8B4887B4 /* Pods-VIPER.debug.xcconfig */,
+				2DCB110C792514F2FE5FD52E /* Pods-VIPER.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39E5B44928AFCA660086E5BC /* Build configuration list for PBXNativeTarget "VIPER" */;
 			buildPhases = (
+				D464500C567B2EAC0C389793 /* [CP] Check Pods Manifest.lock */,
 				39E5B43128AFCA630086E5BC /* Sources */,
 				39E5B43228AFCA630086E5BC /* Frameworks */,
 				39E5B43328AFCA630086E5BC /* Resources */,
+				3BB8B4FFDDF9DA2DDDE7A73B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +224,73 @@
 			files = (
 				39E5B44528AFCA660086E5BC /* LaunchScreen.storyboard in Resources */,
 				39E5B44228AFCA660086E5BC /* Assets.xcassets in Resources */,
-				39E5B44028AFCA630086E5BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BB8B4FFDDF9DA2DDDE7A73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER/Pods-VIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER/Pods-VIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIPER/Pods-VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D464500C567B2EAC0C389793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39E5B43128AFCA630086E5BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39E5B43D28AFCA630086E5BC /* ViewController.swift in Sources */,
+				39E5B45A28AFCADD0086E5BC /* Router.swift in Sources */,
+				39E5B45628AFCACB0086E5BC /* Presenter.swift in Sources */,
+				39E5B45228AFCAB90086E5BC /* View.swift in Sources */,
+				39E5B45428AFCAC40086E5BC /* Interactor.swift in Sources */,
 				39E5B43928AFCA630086E5BC /* AppDelegate.swift in Sources */,
 				39E5B43B28AFCA630086E5BC /* SceneDelegate.swift in Sources */,
+				39E5B45D28AFD0CA0086E5BC /* Errors.swift in Sources */,
+				39969CF828B66BFC00C7C5D1 /* UserModel.swift in Sources */,
+				39E5B45828AFCAD40086E5BC /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		39E5B43E28AFCA630086E5BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39E5B43F28AFCA630086E5BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		39E5B44328AFCA660086E5BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +420,7 @@
 		};
 		39E5B44A28AFCA660086E5BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC9A329DC5BFA5C8B4887B4 /* Pods-VIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +431,7 @@
 				INFOPLIST_FILE = VIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +449,7 @@
 		};
 		39E5B44B28AFCA660086E5BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCB110C792514F2FE5FD52E /* Pods-VIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +460,7 @@
 				INFOPLIST_FILE = VIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
